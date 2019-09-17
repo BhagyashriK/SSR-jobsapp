@@ -1,5 +1,7 @@
 Server side rendered react application for displaying the Jobs.
-Consist of two routes - 1. Jobs List 2. Job Details View
+Consist of two routes: 
+- Job List 
+- Job Details
 
 **Tech Stack:**
 
