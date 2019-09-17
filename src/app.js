@@ -18,7 +18,7 @@ const App = () => {
       <Switch>
         <Route exact path="/jobs" component={Jobs} />
         <Route exact path="/job-details/" component={JobDetails} />
-        <Redirect status={301} from="*" to="/jobs" />} />
+        <Route path="*" render={() => <Redirect to="/jobs" />} />
       </Switch>
     </ErrorBoundary>
   );
