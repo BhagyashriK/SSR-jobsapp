@@ -7,8 +7,12 @@ export const Label = styled.label`
 
 export const Title = styled.h2`
     display: flex;
+    flex-direction: column;
     justify-content: space-between
     color: ${props => props.theme.TITLE_TEXT_COLOR};
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
 `;
 
 Title.defaultProps = {
